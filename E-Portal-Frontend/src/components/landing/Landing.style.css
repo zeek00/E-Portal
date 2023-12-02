@@ -1,0 +1,415 @@
+#control{
+    display: block;
+    background-image: url(../../resources/c.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 90vh;
+
+}
+
+#rootSB{
+    display: block;
+    width: 100%;
+    height: 80vh;
+}
+
+h1{
+    font-family: 'Nunito', sans-serif;
+    font-size: 1.5rem;
+}
+
+#getStarted:hover{
+    color: #f94144;
+
+}
+
+@media screen and (max-width: 2400px){
+    #control{
+        display: block;
+        width: 100%;
+    }
+    #rootSB{
+        display: block;
+        width: 100%;
+    }
+
+    #calltoaction{
+        margin-top: 220px;
+        
+    }
+}
+
+@media screen and (max-width: 1920px){
+    #control{
+        display: block;
+        width: 100%;
+    }
+
+    #rootSB{
+        display: block;
+        width: 100%;
+    }
+    #imgPlace{
+        width: 50%;
+    }
+
+    #banimg{
+        margin: 0px auto;
+    }
+
+    #buttonPlace{
+        width: 50%;
+    }
+
+    #calltoaction{
+        margin-top: 100px;
+    }
+}
+
+@media screen and (max-width: 1200px) {
+    #pStyle{
+        font-size: 0.8em;
+        width: 80%;
+        text-align: justify;
+    }
+
+}
+
+
+@media screen and (max-width: 1050px){
+    #container{
+        display: block;
+        width: 100%;
+        margin: 0px auto;
+        height: 20vh;
+
+
+    }
+    #rootHTs{
+        margin: 60px auto;
+        display: block;
+        height: 20vh;
+
+
+    }
+    #imgPlace{
+        display: none;
+    }
+
+    #control{
+        display: block;
+        background-image: url(../../resources/c.svg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        width: 100%;
+        height: 60vh;
+
+    }
+    #generalclear{
+        border: 1px solid greenyellow;
+    }
+
+    #rootH{
+        width: 100%;
+
+    }
+
+    #rootSB{
+        display: block;
+        width: 100%;
+        height: 50vh;
+    }
+       #rootHT{
+           display: none;
+
+
+    }
+       #rootF{
+           background-color: #02325f;
+           width: 100%;
+           float: left;
+       }
+    #buttonPlace{
+        width: 100%;
+
+    }
+
+    #calltoaction{
+        margin-top: 80px;
+    }
+
+    #pStyle{
+        font-size: 1.5vw;
+
+    }
+
+    #getStart{
+        display: block;
+        margin: 0 auto;
+        float: none;
+    }
+    #linksF{
+        font-size: 0.5rem;
+
+    }
+
+    #linksSection{
+
+        margin-top: 16px;
+        width: 60%;
+        float: left;
+    }
+
+    #appbarTitle{
+        font-size: 1.5rem;
+    }
+
+    #headfootlink{
+        font-size: 1rem;
+
+
+    }
+
+    #contentfoot{
+        margin-right: 22px;
+    }
+
+    #wrap{
+        display: block;
+        width: 32%;
+    }
+
+    #clear{
+        clear: left;
+    }
+
+    #logoAndGit{
+        display: block;
+        margin-top: -120px;
+        height: 10vh;
+        width: 20%;
+        font-size: 10px;
+        text-align: right;
+
+
+    }
+}
+@media screen and (max-width: 1000px){
+    #rootH{
+        width: 100%;
+
+    }
+    #rootFT{
+        min-height: 10px;
+    }
+
+
+    #rootHT{
+        display: none;
+
+
+    }
+    #buttonPlace{
+        width: 100%;
+    }
+
+    #getStart{
+        display: block;
+        margin: 0 auto;
+        float: none;
+    }
+}
+
+@media screen and (max-width: 900px){
+    #rootHT{
+        display: none;
+
+
+    }
+    #buttonPlace{
+        width: 100%;
+    }
+    #pStyle{
+        text-align: center;
+        margin: 0 auto;
+        width: 400px;
+    }
+
+     #links{
+         display: none;
+     }
+
+     #logoAndGit{
+         width: 100%;
+     }
+
+
+
+    #getStart{
+        display: block;
+        margin: 0 auto;
+        float: none;
+    }
+
+}
+
+
+@media screen and (max-width: 1050px){
+
+    #logoAndGit{
+        margin-top: 30px;
+        display: block;
+
+        width: 20%;
+        height: 15vh;
+        margin-right: 35px;
+    }
+
+}
+@media screen and (max-width: 1000px){
+
+}
+
+@media screen and (max-width: 900px){
+    :root{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+    #appbarTitle{
+        font-size: 2em;
+    }
+    #logoAndGit{
+        display: block;
+        width: 10%;
+        height: 15vh;
+        margin-right: 35px;
+
+    }
+    #wrap  a{
+        font-size: 1.5em;
+        margin-left: 35px;
+        margin-right: 20px;
+
+
+    }
+
+    #contentlinks a{
+        font-size: 1em;
+    }
+
+    #contentfoot{
+        margin-left: 20px;
+    }
+
+    #linksSection{
+        width: 80%;
+
+    }
+
+
+}
+
+@media screen and (max-width: 600px){
+    :root{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+    #appbarTitle{
+        font-size: 2em;
+    }
+    #logoAndGit{
+        display: block;
+        width: 10%;
+        height: 15vh;
+        margin-right: 35px;
+
+    }
+    #wrap  a{
+        font-size: 1.5em;
+        margin-left: 35px;
+        margin-right: 20px;
+
+
+    }
+
+    #contentlinks a{
+        font-size: 1em;
+    }
+
+    #contentfoot{
+        margin-left: 20px;
+    }
+
+    #linksSection{
+        width: 80%;
+
+    }
+
+
+
+}
+
+@media screen and (max-width: 450px) {
+    :root {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+
+    #pStyle{
+        font-size: 0.7em;
+    }
+
+    #appbarTitle {
+        font-size: 2em;
+    }
+
+    #logoAndGit {
+        display: block;
+        width: 10%;
+        height: 15vh;
+        margin-right: 25px;
+
+    }
+
+    #wrap a {
+        font-size: 1.5em;
+        margin-left: 35px;
+        margin-right: 20px;
+
+
+    }
+
+    #contentlinks a {
+        font-size: 0.8em;
+    }
+
+    #contentfoot, a {
+        margin-left: 10px;
+
+    }
+
+    #calltoaction{
+        font-size: 3em;
+
+    }
+
+
+    #linksSection {
+        width: 80%;
+
+    }
+}
+
+@media screen and (max-width: 390px){
+    #calltoaction{
+        font-size: 3em;
+        margin-top: 25px;
+
+    }
+
+}
+

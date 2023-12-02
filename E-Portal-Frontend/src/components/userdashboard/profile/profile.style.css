@@ -1,0 +1,112 @@
+.head{
+    width: 80%;
+}
+
+.Imagecontent{
+    width: 80%;
+    margin: 0 auto;
+    box-shadow: 0px 0px 1.9px #999;
+}
+.Infocontent{
+    width: 80%;
+    margin: 25px auto;
+    box-shadow: 0px 0px 1.9px #999;
+}
+
+
+
+.imgarea{
+    float: left;
+    width: 20%;
+}
+.uploadarea{
+    float: left;
+    width: 70%;
+    margin-left: 20px;
+    height: 20vh;
+}
+
+.clear{
+    clear: both;
+}
+
+.img{
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+
+}
+
+.actionBtn button{
+    display: inline;
+    width: 15%;
+    padding: 6px;
+    cursor: pointer;
+}
+.actionBtn button:hover{
+    width: 16%;
+    padding: 8px;
+    cursor: pointer;
+    font-weight: bolder;
+    display: inline-block;
+    transition: all 0.3s ease-in;
+}
+
+.browse{
+    background: #f94144;
+    color: #fff;
+    border: none;
+    border-radius: 3px;
+}
+
+.delete{
+    background: #555;
+    margin-left: 10px;
+    color: #fff;
+    border: none;
+    border-radius: 3px;
+}
+
+.textField{
+    width: 100%;
+    height: 7vh;
+    margin: 0 auto;
+}
+
+.textinfo{
+    width: 100%;
+    margin-bottom: 30px;
+}
+
+.row1{
+    display: inline-block;
+    margin-right: 5px;
+    width: 50%;
+}
+.row2{
+    display: inline-block;
+    width: 49%;
+}
+
+.save{
+    float: right;
+    margin-top: 10px;
+    width: 8%;
+    background: #02325f;
+    color: #fff;
+    border: none;
+    padding: 5px;
+    border-radius: 3px;
+}
+
+.save:hover{
+    width: 9%;
+    padding: 6px;
+    cursor: pointer;
+    display: inline-block;
+    font-weight: bolder;
+    background-color: #f94144;
+    transition: all 0.3s ease-in;
+
+
+}

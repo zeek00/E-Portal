@@ -1,0 +1,88 @@
+
+.header{
+    background: #eaeaea;
+    border-radius: 3px;
+    width: 80%;
+    height: 7vh;
+    margin: 20px auto;
+    text-align: left;
+}
+
+.header h1{
+    display: inline-block;
+    margin-left: 20px;
+    width: 80%;
+}
+
+.contact{
+    padding: 7px;
+    width: 10%;
+    background-color: #f94144;
+    border: none;
+    border-radius: 2px;
+    cursor: pointer;
+    color: #fff;
+}
+
+.contact:hover{
+    padding: 9px;
+    color: #fff;
+    font-weight: bolder;
+
+    transition: all 0.3s ease-in-out;
+}
+
+
+.memberHead{
+    background: #02325f;
+    width: 80%;
+    margin: 0 auto;
+    text-align: center;
+    height: 6vh;
+}
+
+.memberBody{
+    width: 80%;
+    margin: 0 auto;
+    height: 5vh;
+    border-bottom: 2px solid #ccc;
+
+}
+
+.memberHead .users, .emails{
+    display: inline-block;
+    width: 50%;
+    margin: 0px auto;
+    height: inherit;
+}
+
+.memberBody .users, .emails {
+    display: inline-block;
+    width: 50%;
+    margin-right: 0px;
+    height: inherit;
+}
+
+.memberHead h3{
+    display: inline;
+    margin-top: 10px;
+    margin-left: 25px;
+    color: #fff;
+    float: left;
+
+}
+
+.memberBody h4{
+    display: inline;
+    margin-top: 10px;
+    float: left;
+    margin-left: 25px;
+}
+
+.msgicon{
+    font-size: 0.7em;
+}
+
+.clear{
+    clear: both;
+}

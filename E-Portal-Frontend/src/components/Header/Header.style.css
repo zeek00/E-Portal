@@ -1,0 +1,44 @@
+#btnstyle a{
+    text-decoration: none;
+    color: whitesmoke;
+}
+
+#btnstyle:hover{
+    background-color: #02325f;
+}
+
+.dropdow{
+    position: fixed;
+    top: 45px;
+    right: 90px;
+    width: 10%;
+    z-index: 1;
+    background-color: rgba(0, 0, 0, 0.3);
+
+
+}
+
+.dropItem{
+    display: inline-block;
+    z-index: 2;
+    width: 100%;
+
+}
+
+#btnstyle{
+    display: inline-block;
+    width: 100%;
+    background: none;
+    color: #fff;
+    border: none;
+    margin-top: 10px;
+    padding: 5px;
+    cursor: pointer;
+    margin-bottom: 5px;
+    border-radius: 2px;
+}
+
+#btnstyle:hover{
+    background: #f94144;
+    transition: all 0.3s ease-in;
+}

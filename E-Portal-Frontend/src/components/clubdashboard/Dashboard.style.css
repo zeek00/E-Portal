@@ -1,0 +1,583 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+root{
+    display: block;
+
+}
+.ant-btn-primary{
+    background-color: #f94144;
+    border: #f94144;
+}
+
+.ant-btn-primary:hover{
+    background-color: #f94144;
+    border: #f94144;
+    opacity: 0.8;
+}
+
+
+html, body{
+    height: 100%;
+}
+
+body{
+    font-family: 'Nunito', sans-serif;
+}
+
+.sidebar{
+    position: fixed;
+    width: 15%;
+    background: #02325f;
+    height: 100%;
+    box-shadow: 1px 0px 10px #999;
+    top:0;
+    left: 0;
+}
+
+.dropdown{
+    position: fixed;
+    right: 0;
+    top: 60px;
+    width: 8%;
+    margin: 0 auto;
+    padding: 15px;
+}
+.dropdown-content {
+    width: 100%;
+    margin-top: -12px;
+    background-color: whitesmoke;
+
+}
+.dropdown-content:hover {
+    width: 100%;
+    margin-top: -12px;
+
+
+}
+
+
+
+
+
+.dropdown-content a {
+    width: 100%;
+    color: #282c34;
+
+}
+
+.aH:hover {
+    color: #f94144;
+    font-weight: 300;
+    transition: all 0.3s;
+
+}
+
+
+
+.dropdown-item{
+    width: 100%;
+    display: block;
+    margin-bottom: 10px;
+    padding: 5px;
+    background-color: whitesmoke;
+
+
+}
+
+.dropdown-item:hover{
+    width: 100%;
+    display: block;
+    color: #fff;
+    margin-bottom: 10px;
+    padding: 5px;
+
+
+
+}
+
+.avatar{
+    width: 2vw;
+    border-radius: 50%;
+    margin-top: 15px;
+    margin-right: 7px;
+    float: right;
+}
+
+
+
+
+.navigates:hover{
+    background: #f94144;
+    transition: all 0.3s ease-in;
+}
+
+
+
+
+.Sideicons{
+    color: #fff;
+    margin-right: 5px;
+
+
+
+
+}
+
+
+
+
+.navBar{
+    position: fixed;
+    right: 0;
+    width: 85%;
+    background-color: #fff;
+    border-bottom: #282c34;
+    box-shadow: 0px 1px 5px #999;
+    height: 8vh;
+    z-index: 3;
+}
+
+.contentArea{
+    width: 85%;
+    position: fixed;
+    background-color: #fff;
+    top: 52px;
+    right: 0;
+    height: 100%;
+    z-index: 1;
+    overflow: scroll;
+    scrollbar-width: thin;
+    scrollbar-color: #f94144 #02325f;
+
+}
+
+.logo{
+    width: 100%;
+    margin: 0px auto;
+    background-color: #02325f;
+    border-bottom: 2px solid #f94144;
+    height: 8vh;
+}
+
+.logo h1{
+    width: 100%;
+
+}
+
+
+
+.set{
+    width: 1.5vw;
+    margin-top: 20px;
+    margin-right: 20px;
+    color: #555;
+    float: right;
+}
+
+.set:hover{
+    color: #f94144;
+}
+
+.search{
+    width: 1vw;
+    margin-top: 20px;
+    margin-left: -30px;
+    color: #555;
+    float: left;
+}
+
+.search:hover{
+    color: #f94144;
+}
+
+.arrow{
+    width: 0.7vw;
+    position: relative;
+    margin-top: 20px;
+    color: #555;
+    margin-right: 17px;
+    float: right;
+
+}
+
+.arrow:hover{
+    color: #f94144;
+}
+
+
+.navBar input[type=text] {
+    float: left;
+    padding: 10px;
+    width: 40%;
+    border: 1px solid #949494;
+    border-radius: 3px;
+    margin-top: 8px;
+    margin-left: 60px;
+    font-size: 15px;
+}
+.navBar a:hover{
+    color: #f94144;
+
+}
+
+
+
+
+
+.appbarTitle{
+    float: left;
+    color: #fff;
+    padding: 10px;
+    font-weight: 800;
+
+}
+
+.h1span{
+    color: #f94144;
+}
+
+.fixed{
+    background: #f94144;
+
+
+}
+
+.tools{
+    position: absolute;
+    width: 100%;
+    background: #f94144;
+    bottom: 0;
+    padding: 15px;
+    height: 8vh;
+}
+
+
+
+.Sidetext{
+    color: #fff;
+    font-size: 1rem;
+    display: inline-block;
+    width: 60%;
+    text-align: left;
+}
+
+.menu-item {
+    display: block;
+    text-decoration: none;
+    width: 100%;
+    margin: 0px auto;
+    padding: 12px;
+
+
+}
+
+
+.menu-item:hover{
+    background: #f94144;
+    transition: all 0.3s ease-in;
+}
+
+
+.menuicon
+{
+    font-size: 2.3vh;
+    display: inline-block;
+    width: 15%;
+    margin: 0px auto;
+
+
+
+}
+.userswitch{
+    background-color: #555;
+    color: #fff;
+    padding: 2px;
+    margin-top: 0;
+    font-size: 0.6vw;
+}
+.userswitch:hover{
+    background-color: #f94144;
+
+}
+
+.switch{
+
+    font-size: 1.5vw;
+    color: #555;
+    display: block;
+    float: right;
+    padding: 0;
+    margin-top: 0;
+    margin-right: 100px;
+}
+
+
+.switch:hover{
+    color: #f94144;
+
+}
+
+.headcreate{
+    display: block;
+    margin-bottom: 30px;
+
+}
+
+.p{
+    border-bottom: 3px solid #f94144;
+    border-radius: 2px;
+    width: 20%;
+    margin: 0 auto;
+
+
+}
+
+.createEventHead{
+    font-size: 2em;
+    font-weight: bolder;
+    color: #334;
+}
+
+.cardarea{
+    display: inline-block;
+    width: 50%;
+    box-shadow: 0px 0px 2px #999;
+    margin-bottom: 30px;
+}
+
+.cardHead{
+    border-bottom: 1px solid #555;
+    width: 100%;
+
+
+}
+.headText{
+    margin-left: 20px;
+    font-family: 'Nunito', sans-serif;
+    font-size: 2.5em;
+    color: #334;
+    width: 80%;
+}
+
+.iconStyle{
+    font-size:2.5em;
+    color: #334;
+}
+
+.headText,.iconStyle{
+    display: inline-block;
+}
+
+.itemsCard{
+    text-align: left;
+    margin: 0 auto;
+}
+
+.textBox{
+    display: block;
+    width: 100%;
+}
+.datetimearea{
+    display: block;
+    margin: 0 auto;
+    width: 50%;
+    text-align: center;
+    margin-bottom: 30px;
+    box-shadow: 0px 0px 2px #999;
+}
+
+.dateBox{
+    display: inline-block;
+    width: 80%;
+
+}
+
+.cover{
+    display: inline-block;
+    width: 50%;
+    margin-bottom: 10px;
+}
+
+.cover2{
+    display: inline-block;
+    text-align: right;
+    width: 50%;
+    margin-bottom: 10px;
+}
+
+.checkColor{
+
+    padding-right: 85px;
+
+}
+
+.seatsbtn{
+    display: inline;
+    background-color: #f94144;
+    border: none;
+    margin-top: 10px;
+    color: #fff;
+    float: right;
+    cursor: pointer;
+    padding: 5px;
+}
+
+.formsubmit{
+    border: 1px solid red;
+    background-color: #f94144;
+    width: 10%;
+    padding: 12px;
+    color: #fff;
+    font-size: 1.5em;
+    border-radius: 2px;
+    margin-bottom: 50px;
+    cursor: pointer;
+}
+
+
+.cardStyle{
+    margin-left: 30px;
+}
+
+.head{
+    background: #eaeaea;
+    border-radius: 3px;
+    height: 7vh;
+    margin: 20px auto;
+    text-align: left;
+}
+
+.head h1{
+    display: inline-block;
+    margin-left: 20px;
+    width: 80%;
+}
+
+.sendMessage{
+    padding: 7px;
+    background-color: #f94144;
+    border: none;
+    border-radius: 2px;
+    cursor: pointer;
+    color: #fff;
+}
+
+.sendMessage:hover{
+    padding: 9px;
+    color: #fff;
+    font-weight: bolder;
+    transition: all 0.3s ease-in-out;
+}
+
+
+.eventsArea{
+    width: 80%;
+    margin: 0 auto;
+
+}
+
+.eventsCard{
+    display: inline-block;
+    margin-right: 20px;
+}
+
+.eventsCard:hover{
+    transition: all 0.3s ease-in;
+    width: 310px;
+    box-shadow: 0px 0px 2px #f94144;
+}
+
+.eventicon{
+    margin-left: 20px;
+    font-size: 1.5em;
+    color:  #ddd;
+    cursor: pointer;
+}
+
+.eventicon:hover{
+    transition: all 0.3s ease-in;
+    font-size: 1.7em;
+    color:  #f94144;
+    cursor: pointer;
+}
+
+.messageHead{
+    background: #02325f;
+    width: 80%;
+    margin: 0 auto;
+    height: 6vh;
+}
+
+.messageBody{
+    width: 80%;
+    margin: 0 auto;
+    height: 5vh;
+    border-bottom: 2px solid #ccc;
+
+}
+
+.messageHead .user, .email, .datesent, .dateseen  {
+    display: inline-block;
+    width: 23%;
+    margin-right: 0px;
+    float: left;
+    height: inherit;
+}
+
+.messageBody .user, .email, .datesent, .dateseen  {
+    display: inline-block;
+    width: 23%;
+    margin-right: 0px;
+    float: left;
+    height: inherit;
+}
+
+.messageHead h3{
+    display: inline;
+    margin-top: 10px;
+    margin-left: 25px;
+    color: #fff;
+    float: left;
+
+}
+
+.messageBody h4{
+    display: inline;
+    margin-top: 10px;
+    float: left;
+    margin-left: 25px;
+}
+
+.msgicon{
+    font-size: 0.7em;
+}
+
+.clear{
+    clear: both;
+}
+
+.messageBody .reply{
+    width: 20px;
+    margin-top: 5px;
+    display: inline-block;
+    font-size: 1.2em;
+}
+
+.reply:hover{
+    width: 20px;
+    cursor: pointer;
+    display: inline-block;
+    margin-top: 0px;
+    font-size: 1.6em;
+    color: #f94144;
+    transition: all 0.3s ease-in;
+}
+
+.cardActions{
+    border: 1px solid red;
+}
